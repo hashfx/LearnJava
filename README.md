@@ -10,4 +10,4 @@
 
 <hr>
 
-<h1 align="center">Thanks <a href="harshtech.me" target="blank">Code blooded animals</a> !
+<h1 align="center">Thanks <a href="http://harshtech.me" target="blank">Code blooded animals</a> !
