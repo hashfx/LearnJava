@@ -6,6 +6,8 @@
 
 # Contribution
 
-## Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change
 
-<h1 align="center"> [Thanks](harshtech.me)
+<hr>
+
+<h1 align="center">Thanks <a href="harshtech.me">Code blooded animals</a> !
