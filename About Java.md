@@ -1,13 +1,13 @@
 
-# JAVA
+# **JAVA**
 
 + ## Father: James Arthur Gosling aka Dr. Java (1955)
 
-+ ## Principle: Simple, Robust, Portable, Platform-independent, Secured, High Performance, Multithreaded, Architecture Neutral, Object-oriented, Interpreted, and Dynamic
++ ## Principle: Simple, Robust, Portable, Platform-independent, Secured, High Performance, Multi-threaded, Architecture Neutral, Object-oriented, Interpreted, and Dynamic
 
 + ## Etymology: Java is an island of Indonesia where first coffee was produced(Java Coffee)
 
-+ ## Paradigm: Generic, Object-oriented, Imperetive, Reflective
++ ## Paradigm: Generic, Object-oriented, Imperative, Reflective
 
 ## Java character set
 
@@ -17,8 +17,8 @@ For Example:
 
 + A: 65 (ASCII for A)
 + B: 66 (ASCII for B)
-+ A(devnagri): 400  (ASCII)
-+ Aa(devnagri): 401 (ASCII)
++ A(devanagari): 400  (ASCII)
++ Aa(devanagari): 401 (ASCII)
 
 ## History of Java
 
@@ -28,7 +28,7 @@ For Example:
 + Guardians of Java
   + SunMicro System has handed over entire rights of Java to Oracle
 
-#### NOTE
+### NOTE
 
 #### Java software is available in the form of JDK (Java Development Kit)
 
@@ -61,4 +61,10 @@ Java is object oriented which supports features of object oriented language:
   + abstraction
   + inheritance
   + polymorphism
-  
+  + robust
+    + Robust means strong; Java programs do not crash easily
+    + There are two reasons behind it:
+      + Java has powerful concept called **Exception handling _(run time problems)_**
+      + Java has in-built memory feature
+      + Most of the C/C++ programs crash in the middle because they are not able to allocate sufficient memory or forget to free the allocated memory.
+      + Such problems are not present in Java because here user need not to allocate/reallocate the memory. Every care would be taken by **JVM(Java Virtual Machine**)

@@ -3,7 +3,7 @@ JAVA:
     Principle: Simple, Robust, Portable, Platform-independent, Secured, 
         High Performance, Multithreaded, Architecture Neutral, Object-oriented, Interpreted, and Dynamic
     Etymology: Java is an island of Indonesia where first coffee was produced(Java Coffee)
-    Paradigm: Generic, Object-oriented, Imperetive, Reflective
+    Paradigm: Generic, Object-oriented, Imperative, Reflective
 
 
 Java character set: (65,556)
@@ -163,4 +163,6 @@ In the real industry, Java software is present in 3 categories:
 
 NOTE
 Java software is available in the form of JDK (Java Development Kit)
+
+
 
