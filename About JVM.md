@@ -14,20 +14,23 @@ JVM <br>
 
 + First, Java program  (`.java`) is converted by `javac` compiler into `.class` file by `javac` compiler which contains byte code instructions. **This Java compiler is outside of JVM**
 + Now this `.class` file is given to JVM.
-+ In JVM, there is a module called **Class Loader Subsystem** which perform following task
-  + It loads `.class` file into memory then verifies if all the byte code instructions are proper or not. If it find any instruction suspicious then execution is rejected immediately.
-  + If byte code is proper then it allocate the necessary memory to execute the program. This memory is divided into 5 parts called **Run Time Data Areas**
 
-    + **Method area**
-      + This area store `class code`, `method code` of the Java program
-    + **Heap area:**
-      + It stores the object of the program
-    + **Java Stack:**
-      + While running a method, there is a need of some more memory to store temporary data and result. This memory is allocated in Java Stack
-    + **PC Registers**
-      + These are the registers which contain memory address of the instructions of the methods
-    + **Native Method Stack**
-      + All the Native Methods are stored here. Native Methods are those _whose implementation are written in other programming language like C, C++ etc._
++ **Class Loader Subsystem**
+
+  + In JVM, there is a module called **Class Loader Subsystem** which perform following task
+    + It loads `.class` file into memory then verifies if all the byte code instructions are proper or not. If it find any instruction suspicious then execution is rejected immediately.
+    + If byte code is proper then it allocate the necessary memory to execute the program. This memory is divided into 5 parts called **Run Time Data Areas**
+
+      + **Method area**
+        + This area store `class code`, `method code` of the Java program
+      + **Heap area:**
+        + It stores the object of the program
+      + **Java Stack:**
+        + While running a method, there is a need of some more memory to store temporary data and result. This memory is allocated in Java Stack
+      + **PC Registers**
+        + These are the registers which contain memory address of the instructions of the methods
+      + **Native Method Stack**
+        + All the Native Methods are stored here. Native Methods are those _whose implementation are written in other programming language like C, C++ etc._
 
 + **Execution Engine**
   + Execution Engine contains Interpreter and JIT Compiler which are responsible for converting the byte code instructions into Machine Code. In Java, Compiler and Interpreter works together. For simple statements Interpreter is used and for looping statement JIT Compiler is used.

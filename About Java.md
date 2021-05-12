@@ -30,16 +30,15 @@ For Example:
 
 ### NOTE
 
-#### Java software is available in the form of JDK (Java Development Kit)
++ Java software is available in the form of JDK (Java Development Kit)
 
-### In the real industry, Java software is present in 3 categories
-
-+ J2SE (Java to Standard Edition)
-        used for developing client side applications
-+ J2EE (Java to Enterprise Edition)
-        used for developing server side applications
-+ J2ME (Java to Micro Edition)
-        used for developing mobile applications
++ In the real industry, Java software is present in 3 categories
+  + J2SE (Java to Standard Edition)
+    +      used for developing client side applications
+  + J2EE (Java to Enterprise Edition)
+    +      used for developing server side applications
+  + J2ME (Java to Micro Edition)
+    +      used for developing mobile applications
 
 ## Features of Java
 
@@ -61,10 +60,24 @@ Java is object oriented which supports features of object oriented language:
   + abstraction
   + inheritance
   + polymorphism
-  + robust
-    + Robust means strong; Java programs do not crash easily
-    + There are two reasons behind it:
-      + Java has powerful concept called **Exception handling _(run time problems)_**
-      + Java has in-built memory feature
-      + Most of the C/C++ programs crash in the middle because they are not able to allocate sufficient memory or forget to free the allocated memory.
-      + Such problems are not present in Java because here user need not to allocate/reallocate the memory. Every care would be taken by **JVM(Java Virtual Machine**)
+
+### Robust
+
++ Robust means strong; Java programs do not crash easily
++ There are two reasons behind it:
++ Java has powerful concept called **Exception handling _(run time problems)_**
++ Java has in-built memory feature
++ Most of the C/C++ programs crash in the middle because they are not able to allocate sufficient memory or forget to free the allocated memory.
++ Such problems are not present in Java because here user need not to allocate/reallocate the memory. Every care would be taken by **JVM(Java Virtual Machine**)
+
+### Architecture Neutral
+
++ Java is **Architecture Neutral Language** because the size of data type is same across the platform
+
+### Portable
+
++ Portable applications are those which can run on each and every Operating System; and each and every processor without considering their vendor.
+
+### Java is Platform Independent Programming Language
+
+#### <center> JVM is Platform Dependent
