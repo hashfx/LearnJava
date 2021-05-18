@@ -133,6 +133,7 @@ class Test{
 ### Class is a collection of data member and methods
 
 ```java
+// Filename: Demo.java
 class First{
     int a, b, c;
     void accept(){
@@ -153,6 +154,35 @@ class Demo{
         obj.accept();
         obj.sum();
         obj.display();
+    }
+}
+
+```
+
+## Another way
+
+```java
+// Filename: Demo.java
+class First{
+    int a, b, c;  // data members
+    void accept(int x, int y){  // (x, y) :: local parameters
+        a = x;
+        b = y;
+    }
+    void sum(){
+        c = a + b;
+    }
+    void display(){
+        return c;
+    }
+}
+
+class Demo{
+    public static void main(String args[]){
+        First obj = new First();
+        obj.accept(99, 1);
+        obj.sum();
+        System.out.println(obj.display());
     }
 }
 
