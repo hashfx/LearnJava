@@ -187,3 +187,31 @@ class Demo{
 }
 
 ```
+
+## Play with Java classes
+
+```java
+class Demo {
+  int x;
+  public static void main (String args[]){
+    System.out.println(x);
+  }
+}
+
+/*
+Output:
+Error... 
+*/
+```
+
+### Note
+
++ ### 1 non static method can call another static method  directly if both belong to same class
+
++ ### 1 non static method can call another non static method directly if both belong to same class
+
++ ### 1 static can call another instance method (non-static) w.r.t. object
+
++ ### 1 instance method can call another static method directly if both belong to same class
+
+  + ### If both methods are from different class, then calling will be w.r.t. class name

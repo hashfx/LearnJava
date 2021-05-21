@@ -89,10 +89,10 @@ Used keywords       unused keywords
 + In Java, Identifiers contain alphabets, digits, and two special char ($, _)
 + Rules for naming identifiers :
   + Class name should start with capital letter (PascalNotation)
-    + If class name have multiple words, then saparate with capital letters
+    + If class name have multiple words, then separate with capital letters
   + Variable names should start with small letters (var)
-    + If variable name has multiple words, then saparate with capital letter (varName)
+    + If variable name has multiple words, then separate with capital letter (varName)
   + Method name should start with small letter
-    + If method name has multiple word then saparate with cpital letters
+    + If method name has multiple word then separate with capital letters
   + Constant name must be given in capital letters
-    + If constant name has multiple word, saparate with underscore(_)
+    + If constant name has multiple word, separate with underscore(_)

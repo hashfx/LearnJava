@@ -34,7 +34,7 @@
   + Java Boolean datatype takes 0 byte of main memory space because it is implemented with general purpose register
         which allows to store 1 bit of information where (1 for true) and (0 for false)
 
-### Default values of datatypes (category wise)
+### Default values of data-types (category wise)
 
 + integer === 0
 + float === 0.0
