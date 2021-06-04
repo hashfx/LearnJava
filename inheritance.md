@@ -92,3 +92,48 @@ class Demo{
     }
 }  // Output: Base Class \n Derive Class \n 300
 ```
+
+## Types if Inheritance
+
++ ### rt
+
++ ### rty
+
++ ### Hierarchical Inheritance
+
++ ### Hybrid Inheritance
+
+### Note: **Multiple Inheritance** in not supported in Java
+
+```java
+// Multiple Inheritance in Java
+class A{
+    int a;
+    display(){
+        a = 100;
+        System.out.println(a);
+    }
+}
+class B extends A{
+    int b;
+    display2(){
+        b = 100;
+        System.out.println(b);
+    }
+}
+class C extends B{
+    int c;
+    display3(){
+        c = 100;
+        System.out.println(c);
+    }
+}
+class Demo{
+    public static void main(String args[]){
+        C obj = new C();
+        obj.display();
+        obj.display2();
+        obj.display3();
+    }
+} // Output 100 \n 100 \n 100
+```
