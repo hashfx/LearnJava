@@ -35,4 +35,32 @@ class Demo{
 }
 ```
 
-<!-- todo super keyword at method level -->
+## `super` at method level
+
+```code here```
+
+## `super` at constructor level
+
+### Whenever we create an object of ChildClass then first memory space for BaseClass is created
+
+### First the data member of BaseClass will be initialized then data member of ChildClass will be initialized
+
+### So, constructor of BaseClass is executed first and then constructor of ChildClass would be executed
+
+```java
+class A{  // constructor
+    A(){
+        System.out.println("Base Class");
+    }
+}
+class B extends A{
+    B(){
+        System.out.println("Child Class");
+    }
+}
+class Demo{
+    public static void main(String args[]){
+        B obj = new B();
+    }
+}
+```
