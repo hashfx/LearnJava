@@ -64,3 +64,41 @@ class Demo{
     }
 }
 ```
+
+```java
+class A{
+    A(){
+        System.out.println("Base default");
+    }
+    A(int a){
+        System.out.println("Base Class Parameter");
+    }
+class B extends A{
+    B(){
+        Super(100);
+        System.out.println("Child default");
+    }
+    B(int a){
+        this(100, 200)
+        System.out.println("Child single parameter");
+    }
+    B(int x, int y){
+        System.out.println("Child double parameter");
+    }
+
+}
+}
+class Demo{
+    public static void main(String args[]){
+        B obj = new B(100);
+        B obj = new B();
+    }
+}
+/* Output
+Base default
+Child double parameter
+Child single parameter
+Base Class Parameter
+Child default
+*/
+```
