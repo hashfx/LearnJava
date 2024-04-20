@@ -10,4 +10,4 @@
 
 <hr>
 
-<h1 align="center">Thanks for being here<a href="http://harshsoni.me/Portfolio2022" target="blank">Code blooded animals</a> !
+<h1 align="center">Thanks for being here <a href="http://hashfx.github.io/Portfolio2022" target="blank">Code blooded animals</a> !
