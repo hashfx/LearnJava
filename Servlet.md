@@ -22,3 +22,24 @@ public class FirstServ extends HttpServlet {
   }
 }
 ```
+
+### Run
+```shell
+javac -d ./filename  # servlet searches for class in classes dir
+# -d: compiles java file and into classes dir
+```
+
+deployment descripter: web.xml : maps UL to servlet
+
+```xml
+<!-- need to write for each servlet -->
+<servlet>
+  <servlet-name>first</servlet-name>
+  <servlet-class>FirstServ</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>first</servlet-name>
+  <url-pattern>/Demo</url-pattern>
+</servlet-mapping>
+```
